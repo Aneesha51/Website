@@ -122,3 +122,36 @@ div {
     text-align: center;
 }
 
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+@media(min-width: 992px){
+    .navbar-expand-lg{
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+}
+
+@media(max-width: 576px){
+    p{
+        text-align: center;
+    }
+
+    h2{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .project-link{
+        display: block;
+        text-align: center;
+        margin: 0 20px;
+    }
+
+    
+}
